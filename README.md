@@ -1,5 +1,7 @@
 # go-finance
 
+Caso tenha o docker-compose instalado pode ser usado o [repositório](git@github.com:andresonsouza/postgres-pgadmin4-docker.git) que criei, e seguir as instruções para facilitar a montagem do cenário de desenvolvimento.
+
 ## Referências:
 
 * Golang Migrate: 
