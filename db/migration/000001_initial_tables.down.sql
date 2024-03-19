@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTIS "users";
+DROP TABLE IF EXISTIS "categories";
+DROP TABLE IF EXISTIS "accounts";
