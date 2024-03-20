@@ -21,12 +21,20 @@
 ```
 ## Referências:
 
-* Golang Migrate: 
-  https://github.com/golang-migrate/migrate
+* Golang Migrate:
+[https://github.com/golang-migrate/migrate](https://github.com/golang-migrate/migrate) 
+  
 
 * Golang Migrate CMD para instalação: 
-  https://github.com/golang-migrate/migrate/tree/master/cmd/migrate
+  [https://github.com/golang-migrate/migrate/tree/master/cmd/migrate](https://github.com/golang-migrate/migrate/tree/master/cmd/migrate)
+  
 
 * Código fonte do projeto no Github: 
-  https://github.com/GustavoNoronha0/gofinance-backend
+  [https://github.com/GustavoNoronha0/gofinance-backend](https://github.com/GustavoNoronha0/gofinance-backend)
+  
 
+* Documentação de instalação do SQLC: 
+[https://docs.sqlc.dev/en/latest/overview/install.html#docker](https://docs.sqlc.dev/en/latest/overview/install.html#docker)
+
+* SQLC no Github:
+[https://github.com/kyleconroy/sqlc](https://github.com/kyleconroy/sqlc)
