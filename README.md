@@ -1,7 +1,9 @@
 # go-finance
 
-* Dica:
-Caso tenha o docker-compose instalado pode ser usado o [repositório](https://github.com/andresonsouza/postgres-pgadmin4-docker.git) que criei, e seguir as instruções para facilitar a montagem do cenário de desenvolvimento. O mesmo explica como configurar o postgres e o pgadmin.
+* Usar o docker-compose para subir o postgres e pgadmin com docker:
+```bash
+  docker-compose up -d
+```
 
 * Abrir um terminal no servico DB levantado pelo compose:
 ```bash
@@ -13,6 +15,10 @@ Caso tenha o docker-compose instalado pode ser usado o [repositório](https://gi
   createdb --username=postgres --owner=postgres go_finance
 ```
 
+* Executar as migrations:
+```bash
+  migrate -path db/migration -database "postgresql://postgres:postgres@localhost:5432/go_finance?sslmode=disable" -verbose up
+```
 ## Referências:
 
 * Golang Migrate: 
